@@ -62,7 +62,7 @@ if(NOT ANDROID)
 
     if(BUILD_TOOLCHAIN)
         ExternalProject_Add(toolchain
-            GIT_REPOSITORY https://github.com/jwinarske/clang_toolchain.git
+            GIT_REPOSITORY https://github.com/drewcovi/clang_toolchain.git
             GIT_TAG master
             UPDATE_COMMAND ""
             BUILD_IN_SOURCE 0
